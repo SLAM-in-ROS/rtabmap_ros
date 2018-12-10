@@ -1,0 +1,15 @@
+name: rtabmap-ros
+
+distro: melodic
+
+build: catkin_make
+
+runtime: nvidia
+
+packages:
+  - ros-melodic-rtabmap-ros
+
+volume:
+  - host_path: /DATASET
+    container_path: /DATASET
+    options: ro
