@@ -8,6 +8,7 @@ runtime: nvidia
 
 packages:
   - ros-melodic-rtabmap-ros
+  - ros-melodic-find-object-2d
 
 volume:
   - host_path: /DATASET
